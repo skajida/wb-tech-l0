@@ -1,0 +1,7 @@
+.git
+build
+deploy
+examples
+
+.containerignore
+**/*.md
