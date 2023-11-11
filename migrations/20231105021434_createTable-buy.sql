@@ -1,6 +1,6 @@
 CREATE TABLE buy(
     buy_id             INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    order_uid          VARCHAR(32),
+    order_uid          VARCHAR(32) UNIQUE,
     track_number       VARCHAR(30),
     name_entry         VARCHAR(15),
     delivery_id        INT NOT NULL,
